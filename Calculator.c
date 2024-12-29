@@ -2,7 +2,12 @@
 int mul(int a,int b){
 return a*b;
 }
+ 
+int add(int a,intb){
+return a+b;
+}
 int main(){
 printf("%d",add(3,4));
-printf("%d",mul(8,9));  
+printf("%d",mul(8,9));
+
 }
